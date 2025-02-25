@@ -112,7 +112,7 @@ def reverse_str(str):
 ## Exercice 3
 **Enoncé :** Ecrire une fonction qui prend 2 chaines de caractères (s1 et s2), et qui retourne le nombre de fois que la chaine s2 apparait dans s1
 
-**Solution :**
+**Solutions :**
 
 Sans boucle :
 ```python

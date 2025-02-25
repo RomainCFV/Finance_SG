@@ -76,3 +76,58 @@ $(1 + S_2)^2 = (1 + S_1) * (1 + f)$
 $f = \frac{(1 + S_2)^2}{(1 + S_1)} - 1$
 
 $f \approx 0,06$
+
+# Python
+
+## Exercice 1
+
+**Enoncé :** Ecrire une fonction qui prend en paramètre une liste, et retourner une liste avec les valeurs doublées
+**Solution :**
+```python
+def list_double(l):
+    return [x*2 for x in l]
+```
+
+## Exercice 2
+**Enoncé :** Ecrire une fonction qui prend une chaine de caractères et qui retourne la chaine de caractères à l'envers
+**Solutions :**
+
+Sans boucle :
+```python
+def reverse_str(str):
+    return str[::-1]
+```
+
+Avec boucle :
+```python
+def reverse_str(str):
+  rev_str = ""
+  for i in range(len(str) - 1, -1, -1):
+      rev_str += str[i]
+  return rev_str
+```
+
+## Exercice 3
+**Enoncé :** Ecrire une fonction qui prend 2 chaines de caractères (s1 et s2), et qui retourne le nombre de fois que la chaine s2 apparait dans s1
+**Solution :**
+
+Sans boucle :
+```python
+def occurrences_substr(s1, s2):
+    return s1.count(s2)
+```
+
+Avec boucle :
+```python
+def occurrences_substr(s1, s2):
+    len_s1 = len(s1)
+    len_s2 = len(s2)
+    if len_s2 > len_s1:
+        return 0
+    occurrence = 0
+    for i in range(0, len_s1 - len_s2 + 1):
+        substr = s1[i: i + len_s2]
+        if substr == s2:
+            occurrence += 1
+    return occurrence
+```

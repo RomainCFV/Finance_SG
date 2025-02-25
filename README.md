@@ -82,6 +82,7 @@ $f \approx 0,06$
 ## Exercice 1
 
 **Enoncé :** Ecrire une fonction qui prend en paramètre une liste, et retourner une liste avec les valeurs doublées
+
 **Solution :**
 ```python
 def list_double(l):
@@ -90,6 +91,7 @@ def list_double(l):
 
 ## Exercice 2
 **Enoncé :** Ecrire une fonction qui prend une chaine de caractères et qui retourne la chaine de caractères à l'envers
+
 **Solutions :**
 
 Sans boucle :
@@ -109,6 +111,7 @@ def reverse_str(str):
 
 ## Exercice 3
 **Enoncé :** Ecrire une fonction qui prend 2 chaines de caractères (s1 et s2), et qui retourne le nombre de fois que la chaine s2 apparait dans s1
+
 **Solution :**
 
 Sans boucle :

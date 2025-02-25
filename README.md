@@ -12,9 +12,13 @@
 
 $Payoff = max(0, K - S_t)$
 
-Graphe :
+**Graphe :**
 
-Conclusion :
+Avec $K = 5$
+
+![Figure_1](https://github.com/user-attachments/assets/0f969978-0d7c-4004-ad93-43eddde834bb)
+
+**Conclusion :**
 - Payoff maximale lorsque $S_t=0$ => Payoff maximale de valeur K
 - Payoff linéaire descendant lorsque $0<S_t<K$
 - Payoff de 0 lorsque $S_t>= K$
@@ -32,9 +36,13 @@ Conclusion :
 
 $Payoff = max(0, K_1 - S_t) - max(0, K_2 - S_t)$
 
-Graphe :
+**Graphe :**
 
-Conclusion :
+Avec $K_1 = 6$ et $K_2 = 2$
+
+![Figure_2](https://github.com/user-attachments/assets/9753cc7b-bddf-4a9a-b879-811ad07bb0e5)
+
+**Conclusion :**
 - Lorsque $S_t \leq K_2$, le payoff est: $K_1-K_2$
 - Lorsque $K_2<S_t<K_1$, le payoff est: $K_1-S_t$
 - Lorsque $S_t \geq K_1$, le payoff est 0

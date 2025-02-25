@@ -43,16 +43,17 @@ Conclusion :
 
 **Taux Forward :** Taux déterminé à aujourd'hui pour faire un investissement plus tard
 
-Appliqué dans l'exercice: **L'hypothèse d'Absence d'Opportunité d'Arbitage (AOA)**
+Appliqué dans l'exercice : **L'hypothèse d'Absence d'Opportunité d'Arbitage (AOA)**
 
-AOA : stipule qu’il n’est pas possible d’élaborer une stratégie financière qui, à partir d’un coût d’investissement initial nul, assure un gain dans une date future.
-Implications: Investir sur 2 ans revient à la même chose qu'en divisant les investissements sur plusieurs périodes (par exemple: investir 1 an puis une autre année à une date ultérieure)
+**AOA :** stipule qu’il n’est pas possible d’élaborer une stratégie financière qui, à partir d’un coût d’investissement initial nul, assure un gain dans une date future.
 
-2 taux d'intérêts:
+**Implications :** Investir sur 2 ans revient à la même chose qu'en divisant les investissements sur plusieurs périodes (par exemple: investir 1 an puis une autre année à une date ultérieure)
+
+**2 taux d'intérêts :**
 - $S_1 = 0,04$ (4%), le taux d'intêret d'emprunt sur 1 an
 - $S_2 = 0,05$ (5%), le taux d'intêret d'emprunt sur 2 ans
 
-Trouver le taux $f$, le taux lorsqu'on emprunte 1 an puis 1 an
+**Trouver le taux $f$, le taux lorsqu'on emprunte 1 an puis 1 an**
 
 **Le taux sur 2 ans :**
 
@@ -65,3 +66,5 @@ $(1 + S_2)^2 = (1 + S_1) * (1 + f)$
 **En simplifiant :**
 
 $f = \frac{(1 + S_2)^2}{(1 + S_1)} - 1$
+
+$f \approx 0,06$
